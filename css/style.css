@@ -63,8 +63,8 @@ body{
    font-size: 1.625em;
    line-height: 1.29;
    margin-right: 94px;
-   padding-top: 32px;
-   padding-bottom: 32px;
+   padding-top: 20px;
+   padding-bottom: 20px;
  }
  .nav-list{
   display: flex;
@@ -309,8 +309,12 @@ body{
  }
  .btn.second:focus ,
  .btn.second:hover{
-   background-color: var(--accent-color);
-   color: var(--white-color);
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+              0px 1px 2px rgba(0, 0, 0, 0.08), 
+              0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 
  }
 /* Наши роботы */
@@ -324,7 +328,7 @@ body{
 }
 .exampl{
    display: inline-block;
-   height: 404px;
+   /* height: 404px; */
    background: #FFFFFF;
    border: 1px solid #EEEEEE;
 }
